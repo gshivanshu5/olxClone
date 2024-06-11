@@ -1,0 +1,68 @@
+/* ProductDetail.css */
+
+.chat-container {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    max-height: 300px; /* Adjust as needed */
+    overflow-y: auto;
+  }
+  
+  .message {
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  .message.incoming {
+    background-color: #f0f0f0;
+  }
+  
+  .message.outgoing {
+    background-color: #7890a8;
+    color: #fff;
+  }
+  
+
+  /* ProductDetail.css */
+
+.product-image {
+    /* max-width: 70%; */
+    width: 50%;
+    margin-bottom: 20px ;
+    /* max-height: 70%; */
+    width: 50%;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Adding shadow effect */
+  }
+
+  /* ProductDetail.css */
+
+.contact-details {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #f8f9fa;
+    margin-top: 20px;
+  }
+  
+  .contact-details h4 {
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+
+  .userdis{
+    
+    background-color: white;
+
+    h2{
+        font-weight: 500;
+        color: rgb(67, 38, 2);
+    }
+
+    p{
+        font-weight: 600;
+    }
+  }
+  

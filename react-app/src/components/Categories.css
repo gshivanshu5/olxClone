@@ -1,0 +1,24 @@
+/* Categories.css */
+
+.cat-container {
+    background-color: white;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.cat-container > div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.category {
+    padding: 5px 10px;
+    margin: 5px;
+    background-color: white;
+    color: #000000;
+    border-radius: 5px;
+    cursor: pointer;
+}
+

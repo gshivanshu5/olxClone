@@ -1,0 +1,163 @@
+/* Home.css */
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: whitesmoke;
+}
+
+.clear-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+
+.clear-btn:hover {
+    background-color: #0056b3;
+}
+
+.card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px;
+    background-color: white;
+    cursor: pointer;
+    transition: transform 0.2s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.icon-con {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.icons, .red-icons {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.red-icons {
+    color: red;
+}
+
+.price-text {
+    color: #dc3545;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.m-2 {
+    margin: 10px;
+}
+
+.m-3 {
+    margin: 15px;
+}
+
+
+/* Home.css */
+
+.card {
+    border: 1px solid #e6dcdc;
+    border-radius: 8px;
+    width: 50%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.icons {
+    font-size: 24px;
+    color: #ccc;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+.red-icons {
+    font-size: 24px;
+    color: red;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+.price-text {
+    color: #007bff;
+}
+
+.clear-btn {
+    border: none;
+    background: none;
+    color: #007bff;
+    cursor: pointer;
+}
+
+.clear-btn:hover {
+    text-decoration: underline;
+}
+
+img{
+    width: 300px;
+    height: 200px;
+}
+
+
+@media (max-width: 500px) {
+    .card {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .icons, .red-icons {
+        font-size: 18px;
+    }
+
+    img{
+        width: 200px;
+        height: 150px;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 992px) {
+    .card {
+        /* width: 50%; */
+        margin: 10px 2%;
+    }
+    img{
+        width: 250px;
+        height: 200px;
+    }
+}
+
+@media (min-width: 992px) {
+    .card {
+        width: 25%;
+    }
+}
